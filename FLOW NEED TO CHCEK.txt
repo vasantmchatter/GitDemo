@@ -1,0 +1,11 @@
+Crossover Providers
+A crossover provider can enroll as either a group or individual dental provider.
+For both crossover types the rendering information would be needed.
+The other requirements that are already in the PAVE system would be similar for the dental crossover providers.
+Rendering providers would need to be able to be added after the crossover is created as well (for the group).
+For the rendering provider the specialty code set is 70 and no other rendering provider has this specialty code.
+In the choices for specialty type 70 should not be shown.
+On the enrollment side, if the Rendering Provider is a crossover only, the Billing Provider ID will start with a D.
+Crossover providers from MMIS would need to be saved with any additional flag or something by PMF Load process? @Dev ??
+
+

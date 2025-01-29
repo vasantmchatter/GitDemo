@@ -1,0 +1,148 @@
+1. If an existing RPID is used and the existing Rendering Account is Inactive,
+
+if the existing Account has same NPI and PT, the analyst should be informed about it and on consent the existing Inactive 
+account should be removed (marked deleted) and new Account should be created. -> The messaging is implemented as per Manju under KEN-29191.(workimng fine)
+
+If the existing Account has different NPI or PT, then the analyst should be informed that this is error. 
+He should change the RPID to proceed to create a new Account. Otherwise if the Analyst wants to proceed without changing the RPID, 
+then the existing account should be marked deleted and the new Account should be created. 
+The messaging will be implemented as per Manju under KEN-29191 which will restrict the account from being created right now. 
+Later it will be improvised to create account.  (SHOULD RESTRICT in app iud/warning msg)
+
+2. If an existing RPID is used and the existing Rendering Account is Active,
+If the existing Account has the same NPI and PT, the analyst should be informed about it and on consent only the affiliation 
+should get created with the existing Account. The messaging is implemented as per Manju under KEN-29191.----(Working FINE)----deleing second account--working fine(priyanka)
+
+If the existing Account has different NPI or PT, then the analyst should be informed that this is error. 
+He should change the RPID to proceed to create a new Account. Otherwise, if the analyst wants to proceed without changing the RPID, 
+then the existing account should be marked deleted and the New Account should be created. 
+The messaging is implemented as per Manju under KEN-29191 which will restrict the account from being created right now.
+ Later it will be improvised to create account.  (As of now it is displaying rendering id should be unique)
+------------------------------------------
+swathi mam added this 
+3. If a new RPID is used but the NPI and PT are same as on -
+ a)An existing Inactive Rendering Account - then the analyst should be questioned that he wants to create new RPID for an existing NPI + PT Account? 
+    If analyst says yes, then PAVE creates a new Account.
+
+
+b)An existing Active Rendering Account - then the analyst should be informed that he is trying to create new RPID for an existing NPI + PT Account? 
+If analyst says yes, then PAVE creates a new Account.(ISP---SAME NPI+SAME SERVICESS ADDRESS+SAME PT priyank is creating)
+
+I have listed all the possible scenarios here, but we can rearrange these to align as per the implementation flow.
+These scenarios should be handled at the time of Account Creation as well as in IUD when Analyst enters the RPID, wherever applicable.
+--------------------------------------------------------------
+
+4.If a new RPID is used but the NPI+PT+SERVICE ADDRESS are same as on -
+ a)An existing active Rendering Account - THEN again flip is happening deleted second rendering account
+REEFRENCE:AMAR Screenshot
+Account s:
+100488124	0	1528648631	NULL	233TE1VS
+100488125	0	1528648631	NULL	233PKNLA
+140488124	0	1528648631	P45678	233TE1VS
+140488125	1	1528648631	NULL	233PKNLA (GIVEN -P87956) DELETED ACCOUNT
+
+
+B)If a new RPID is used but the SAME NPI+SAME PT+ DIFFERENT SERVICE ADDRESS as on -
+ a)An existing active Rendering Account --- THEN agin flip is happening deleted second rendering account
+https://support.dharbor.com:8443/browse/KYPBO-20378---
+
+ACCOUNTNUMBER	NPI	ISDELETED	APPLICATIONNUMBER
+100488126	1396348876	0	233QTAK8
+100488127	1396348876	0	233BTQ5Q
+140488126	1396348876	0	233QTAK8
+140488127	1396348876	1	233BTQ5Q
+
+
+5.If a New RPID is used but the  NPI +PT+ SERVICE ADDRESS are same as on -
+a)An existing Inactive Rendering Account - 
+Then flip is not happening and creating new account This scenario is working fine
+
+ACCOUNTNUMBER	ISDELETED	RENDERINGPROVIDERID	APPLICATIONNUMBER
+100488131	0	NULL	233POSIT
+100488132	0	NULL	2336ABSR
+140488131	0	P26184	233POSIT
+140488132	0	P98705	2336ABSR
+
+5.If a New RPID is used but the  SAME NPI +SAME PT+ DIFFERENT SERVICE ADDRESS as on -
+B)An existing Inactive Rendering Account - 
+Then flip is not happening and creating new account This scenario is working fine
+ NPI: 1376809129
+
+
+
+
+
+
+
+
+
+
+
+==========================
+
+Expiration date
+Check in PORTAL
+1)new ac created--
+2) lic Exp dated--
+3)open the lic and update from sup user and chcek in portal parallelly
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=================+++++++++++++++++++++++++++++==================================================
+
+Scenario CAPAVE-10954 AND KEN-29677--DISENROLLMENT INDICATOR
+1b) if biller details existed and then created disenrollment app without selecting Disnerollment indicator approve the application.Then Biller details
+   Status,reason code deactivated but flag will not set. ----in this scenario biller should deactivate ? and these should go in outfile file?
+ANS: Only biller details going in outfile except Indicator
+233ON6CD---DISEROLLMENT-- 100483025---added biller and --dont select check box-- 
+
+1c) if biller details not existed and then created disenrollment app without selecting Disnerollment indicator approve the application.Then Biller details
+   Status,reason code deactivated but flag will not set. ----in this scenario biller should deactivate ? and these should go in outfile file?
+ANS:Business scenario without biller id dont create application if created also it wont display in IUD but it will display in tracking table
+100487520--DISEROLLMENT--233DKO7A
+https://support.dharbor.com:8443/browse/KEN-29788--LOGGEDBUG RELATED TO THIS
+
+
+CAPAVE-10954 AND KEN--29677  Disenrollment indicator scenario FOR FBP
+
+5.a IF BILLER HAVING MULTIPLE Location then create a disnerollment application and dont select Disenrollment indicator. 
+Then biller data should active and SO should deactivate and other location both biller and service office should active
+
+233Q2E9C---GSP FBP-1104136522---The provider accounts XAVIER SLOTKOFF DDS P.C. (Account No: 101488198, 102488198, 103488198, 104488198, 105488198 ) has been successfully created.
+233RCFRG---disnerollment--101488198--approved
+Currenlty now: All biller deactivated and check box selected but Service is active only for all locations
+
+---------------------------------------------------------------------------------
+5B)a IF BILLER HAVING MULTIPLE Location then create a disnerollment application and select Disenrollment indicator. 
+Then only that account biller and SO should deactivate other location should be in SO active only
+NEED TO CHECK
+233786H2 --ISP FBP---- 101488209,102488209,103488209,104488209,105488209,140488209
+233UG5CJ--disnerollment--101488209
+Curently: First account both SO and Biller deactivating and disenroll unchecked
+          and Other location only biller deactivating and service office is in active state and dienrollment indicator unchecked 
+fail ans:should deactivate only SO not biller
+https://support.dharbor.com:8443/browse/KEN-29789
+-----------------------------------------------------------------------------------
+5C)IF BILLER HAVING MULTIPLE Location and multiple Biller id for that ,then create a disnerollment application and dont select Disenrollment indicator. 
+
+233B0B2O---ISP-FBP---101488195,102488195,103488195,104488195,105488195,140488195,
+233QTRJ4---101488195---disnerollment--Approved
+
+currently now :for the first loaction(S45801 01) Both deactivating and other location (S45802 02)only biller deactivating
+-------------------------------------------------------------

@@ -1,0 +1,88 @@
+new rendering 
+PASS-- New rendering FLIP scenario  when given same RPID for other rendering (SAME NPI+ADDRESS_PT) then second account is deleting and flip is happening--BHASHA TESTED
+1124750682
+2)when given inactive rpid for  for other rendering (SAME NPI+ADDRESS_PT) then second account is deleting and flip is happening(priyanka trying)
+
+3)New rendering FLIP scenario  when given same RPID for other rendering (SAME NPI+diffenet ADDRESS_PT) then second account is deleting and flip is happening--BHASHA trying
+
+ISP FLIP SCENARIO
+when given same RPID for other rendering (SAME NPI+ADDRESS_PT) then second account is deleting and flip is happening(priyanka)
+
+2)when given inactive rpid for  for other rendering (SAME NPI+ADDRESS_PT) then second account is deleting and flip is happening(chaitra trying)
+
+
+
+
+
+2ISP APL
+
+1ISP--RP12345--INCATIVE--DELETE
+RP12345---7CATIVE- UNIQUE
+
+
+owner fail-
+Existing payement id WITH new ssn IN change TXN--fail
+new payment id---change txn--
+
+
+
+
+=====================================================
+ISP Flip/New rendering scenario
+ scenario
+1.a) If an existing RPID is used and the existing Rendering Account is Inactive,
+if the existing Account has same NPI Service address and PT, then should analyst should be informed about it and on consent the existing Inactive 
+account should be removed (marked deleted) and new Account should be created. --syaed isp DONE(1124700210 working fine) /new rendering (1124701220)
+
+b).If an existing RPID is used and the existing Rendering Account is Inactive, If the existing Account has different NPI or PT, 
+then Pave should through warning message like "Rendering provider should be unique"------DONE
+
+2.a) If an existing RPID is used and the existing Rendering Account is Active,
+If the existing Account has the same NPI,PT and Service address the analyst should be informed about it and on consent only the affiliation 
+should get created with the existing Account. (deleting second account)----VASANT NEW RENDERIG(1609250307 working fine) PRI-ISP(1982326765 WORKING FINE)
+
+b)If an existing RPID is used and the existing Rendering Account is Active,
+If the existing Account has different NPI or PT,then Pave should through warning message like "Rendering provider should be unique"---done
+
+3.a) If a new RPID is used but the NPI,PT and address are same as on -
+ a)An existing Inactive Rendering Account - then PAVE should create new account--chaitra isp(1316182504 working fine)-- /new rendering (1659812683 WORKING FINE)
+
+b)If a new RPID is used but the NPI,PT and address are same as on -An existing Active Rendering Account -
+then PAVE should create new account------vasant new rendering FAILED(1538664444)-- and isp
+
+================================================================================================================
+Disenrollment indicator
+For Indidual or Group
+1.a) if biller details existed and then created disenrollment app.Select Disnerollment indicator and approve the application.
+Then Biller and Service office should deactivate.
+Output file:Biller details like status,reasoncode,effective date,and indicator should display
+
+b) if biller details existed and then created disenrollment app.UnSelect Disnerollment indicator and approve the application.
+Then Biller and Service office should deactivate but flag will not set.
+Output file:Biller details like status,reasoncode,effective date,should display
+
+c).If biller details doesn not existed then analyst created Disenrollmet application and Select/Unselect disenrollment indicator 
+if approing the applicatio Pave should restrict like (This account does not having biller details)
+
+
+2.a IF BILLER HAVING MULTIPLE Location then create a disnerollment application and dont select Disenrollment indicator.And Approve the application 
+Then biller should be active and SO should be deactivate and other location both biller and service office should active (need to clarify)
+
+b) IF BILLER HAVING MULTIPLE Location then create a disnerollment application and select Disenrollment indicator. 
+Then only that account biller and SO should deactivate other location should be biller should deactive and Service office should be in active
+
+c)IF BILLER HAVING MULTIPLE Location and multiple Biller id for that ,then create a disnerollment application and select Disenrollment indicator.
+Then should deactivate both SO AND Biller for that account
+Ex:(101000000-----G12345 01)
+   (102000000-----P35868 02)
+   (103000000-----M23897 03)
+
+D)IF BILLER HAVING MULTIPLE Location and multiple Biller id for that ,then create a disnerollment application and DONT select Disenrollment indicator.
+Then should deactivate only Biller for that account and So should be active only
+Ex:(101000000-----G12345 01)
+   (102000000-----P35868 02)
+   (103000000-----M23897 03)
+
+
+E) FOR MULTIPLE LOCATION HAVE ADDED BILLER FOR ONLY ONE LOCATION REST OF NOT ADDED THEN CREATING DISENROLLMENT FOR BILLER ADDED ACCOUNT
+ THEN DONT SELECT CHECK BOX WHAT WILL BE THE OTHER LOCATION SO Office status?

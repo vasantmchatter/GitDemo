@@ -1,0 +1,37 @@
+1.Login to the Enrollment Reviewer/Confirmer. Select any  application like-New billing, CHOW applications, Adding a location (billing)
+-New rendering (non-NMP) applications
+-Re-enrollment / revalidation billing applications
+-Re-enrollment / revalidation rendering (non-NMP) applications
+-CHOA billing
+-Crossovers
+-Supplementals adding a CLIA
+Complete the work flow Navigate to Resolution Click on IUD select Enrollment status 1-Active/7-Active Rendering and Select Status begin date.And Then Click on Owner Effective Date. if Status begin date < Owner effective date. Then warning Message popup should Display. .Else Warning message popup should not Display
+
+2.Select Enrollment status 2-Inactive/3-Pending/4-Deceased/5-Rejected/6-Suspended Select Status begin date.And Select Owner Effective Date. if Status begin date < Owner effective date. Then warning Message should not Display/Applicable.
+
+3.If application is Rendering-s/Rendering NMP/Disenrollment apps then the procedure should not applicable. 
+
+4.If IUD consist multiple facilities like FBP,DMC,MT then select Enrollment status 1-Active/7-Active Rendering and Select Status begin date.And Then Click on Owner Effective Date. if Status begin date < Owner effective date. Then warning Message popup should Display.Else Warning message popup should not Display
+
+
+2171QCDN---Rendering-S (nmp)
+
+2111QGM3--Rendering-S	
+
+2111GIFP--CHOA
+
+2111BAEG---gsp supplemental with CLIA
+
+2111E3T7--DMC/New
+
+2111ND81--NMP-- 
+
+2111DAJO--CHOW/New application
+
+2111P8E1---SUDMD/SUDTP 
+
+2111BI99---gsp fbp
+
+219N35VT--disenrollment
+
+215APIJN--REVALIADTAION
