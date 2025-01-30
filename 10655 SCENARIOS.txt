@@ -146,3 +146,5 @@ https://support.dharbor.com:8443/browse/KEN-29789
 
 currently now :for the first loaction(S45801 01) Both deactivating and other location (S45802 02)only biller deactivating
 -------------------------------------------------------------
+
+Updated newly for the git testing 
