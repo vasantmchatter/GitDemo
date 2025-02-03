@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-21T14:16:23 IST" name="Default suite" finished-at="2025-01-21T14:17:35 IST" duration-ms="72832">
+    <groups>
+    </groups>
+    <test started-at="2025-01-21T14:16:23 IST" name="Default test" finished-at="2025-01-21T14:17:35 IST" duration-ms="72832">
+      <class name="UserCreationWithallRole">
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:23 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:29 IST" duration-ms="6737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM1@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMsr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:29 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:36 IST" duration-ms="6346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rev]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM211@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMrev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:36 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:39 IST" duration-ms="3398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sqc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM31@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMsqc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:39 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:42 IST" duration-ms="3217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM101@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMqc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:42 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:45 IST" duration-ms="3118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ssa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM40@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMssa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:45 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:49 IST" duration-ms="3268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM50@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMsa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:49 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:52 IST" duration-ms="3416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[svsr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM60@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMsvsr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:52 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:55 IST" duration-ms="3241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[svr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM70@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMsvr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:55 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:16:59 IST" duration-ms="3198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ceb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM80@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMceb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:16:59 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:17:02 IST" duration-ms="3053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anst]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM120@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAManst]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:17:02 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:17:05 IST" duration-ms="3132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monsr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM90@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMmonsr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:17:05 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:17:09 IST" duration-ms="4448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM100@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMmonr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:17:09 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:17:12 IST" duration-ms="3263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monssr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM110@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMmonssr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+        <test-method signature="UserActivation(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:UserCreationWithallRole@408d971b]" started-at="2025-01-21T14:17:12 IST" name="UserActivation" data-provider="user" finished-at="2025-01-21T14:17:35 IST" duration-ms="22937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DATEAM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[all]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DATEAM130@gmailcom]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DATEAMall]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserActivation -->
+      </class> <!-- UserCreationWithallRole -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
