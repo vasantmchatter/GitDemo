@@ -1,0 +1,16 @@
+package API_file;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+public class Quey {
+	
+	public static void main(String args[]) {
+	given().log().all().
+	header("content-Type","application/json").
+	body("")
+	
+	
+	}
+
+}

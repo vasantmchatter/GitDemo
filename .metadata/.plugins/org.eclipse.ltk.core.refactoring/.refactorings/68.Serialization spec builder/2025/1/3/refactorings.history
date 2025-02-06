@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;ApiFramework/src/main/java/Pojo&apos;&#x0D;&#x0A;- Original project: &apos;68.Serialization spec builder&apos;&#x0D;&#x0A;- Destination element: &apos;ApiFramework/src/main/java/Pojo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     pojo.Location.java&#x0D;&#x0A;     pojo.AddPlace.java" description="Copy compilation units" destination="=ApiFramework/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Pojo" element1="/src&lt;pojo{Location.java" element2="/src&lt;pojo{AddPlace.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1736958974647" units="2" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Pojo&apos; to &apos;pojo&apos;&#x0D;&#x0A;- Original project: &apos;ApiFramework&apos;&#x0D;&#x0A;- Original element: &apos;ApiFramework/src/main/java/Pojo&apos;&#x0D;&#x0A;- Renamed element: &apos;ApiFramework/src/main/java/pojo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Pojo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Pojo" name="pojo" qualified="false" references="true" stamp="1736959668511" textual="false" version="1.0"/>
+</session>

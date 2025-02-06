@@ -1,0 +1,66 @@
+package API_file;
+
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+
+import static io.restassured.RestAssured.*;
+import static org.testng.Assert.assertEquals;
+
+import org.testng.Assert;
+
+public class Quey {
+	
+	public static void main(String args[]) {
+	String Response=given().log().all().
+	header("content-Type","application/json").
+	body("query ($characterId : Int!,$episodeId: Int!){\r\n"
+			+ "  character(characterId: $characterId){\r\n"
+			+ "    id \r\n"
+			+ "    name\r\n"
+			+ "    status\r\n"
+			+ "    species\r\n"
+			+ "  }\r\n"
+			+ "  episode(episodeId: $episodeId ){\r\n"
+			+ "    name\r\n"
+			+ "    \r\n"
+			+ "    }\r\n"
+			+ "}\r\n"
+			+ "").
+	 when().post("https://rahulshettyacademy.com/gq/graphql").then().log().all().
+	extract().response().asString();
+	
+	System.out.println(Response);
+	JsonPath js =new JsonPath(Response);
+	String CharacterName= js.getString("data.character.name");
+	System.out.println(CharacterName);
+	Assert.assertEquals(CharacterName,"vasant");
+	
+	}
+
+	//Mutation 
+	
+	String MutationResponse=given().log().all().
+			header("content-Type","application/json").
+			body("query ($characterId : Int!,$episodeId: Int!){\r\n"
+					+ "  character(characterId: $characterId){\r\n"
+					+ "    id \r\n"
+					+ "    name\r\n"
+					+ "    status\r\n"
+					+ "    species\r\n"
+					+ "  }\r\n"
+					+ "  episode(episodeId: $episodeId ){\r\n"
+					+ "    name\r\n"
+					+ "    \r\n"
+					+ "    }\r\n"
+					+ "}\r\n"
+					+ "").
+			 when().post("https://rahulshettyacademy.com/gq/graphql").then().log().all().
+			extract().response().asString();
+			
+			System.out.println(Response);
+			JsonPath js =new JsonPath(Response);
+			String CharacterName= js.getString("data.character.name");
+			System.out.println(CharacterName);
+			Assert.assertEquals(CharacterName,"vasant");
+			
+}

@@ -1,0 +1,14 @@
+package API_file;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+public class Quey {
+	
+	given().log().all().
+	header("content-Type","application/json").
+	
+	
+	
+
+}

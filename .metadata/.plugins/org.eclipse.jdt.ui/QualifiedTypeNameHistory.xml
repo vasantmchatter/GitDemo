@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="Files.ReUsableMethods"/>
+    <fullyQualifiedTypeName name="File.ReusabilityFunc"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="Files.Payload"/>
+    <fullyQualifiedTypeName name="io.restassured.path.json.JsonPath"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="io.restassured.http.Headers"/>
+    <fullyQualifiedTypeName name="Files_func.UserMethods"/>
+    <fullyQualifiedTypeName name="org.codehaus.groovy.transform.sc.StaticCompilationMetadataKeys"/>
+    <fullyQualifiedTypeName name="io.restassured.http.ContentType"/>
+    <fullyQualifiedTypeName name="pojo.LoginPojo"/>
+    <fullyQualifiedTypeName name="pojo.LoginResponse"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+</qualifiedTypeNameHistroy>

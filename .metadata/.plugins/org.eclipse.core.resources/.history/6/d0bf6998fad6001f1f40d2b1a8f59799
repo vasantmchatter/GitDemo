@@ -1,0 +1,41 @@
+package Files_func;
+
+public class AllHeaders {
+
+	
+	public static String headersVariable() {
+		
+		/*String Authorization="Basic a3lwZW46VEhsb1JHZFRSRnBLTVVkRWRXTTRValZsTTJsaWV"
+				+ "VbFBXamw0TVV4cFJWazJUM1ZGT0dOWFVHVkliMHhtY1hwYVFTOTZaM0ZuTVc1Tk5rU"
+				+ "jZUSFIyVG5kWmVHNXdUSE5MVFZWRlRHTjFaa05NV25BNFZHazJjRUZPV1ZkWlUwcDRUR05Z"
+				+ "YmxSd0t6UlpXSEZpY1c1QlprazRlVGx4WVZvck16UkNZMFIyYjJFelpVdExWa0ZwU1dsWWRu"
+				+ "b3hWR1pPWnpoTmEzSkRObFUxYWpRMlQySlBRMEp3UTI4eGJtc3pXbEJXVTIxSFYzTjVOMDA0"
+				+ "UkZOVWRWTlROMnhCYkRGVVVsVkJWRkZpUkZkUUwySk5UVEpNWlZWU1lYTlBXV0ZLTVZSVlQzcH"
+				+ "hjME4zVlc0eVkwOVNZWGRNTDFsNFUxSllURXgwZFhwSlZHNUVUbnBDV2s5c1JITlFjSEUzYzBaTVFteDBhR1JRYUZSQldEZHJaRkpDVE"
+				+ "RONGQxWlBZVGRaZFZwRVNFNHdMMmRoYUd0M0t6SnBZa2hvWVVKeVYweFFMeXN2VlZobEwzRlBRazk1YW5RMWQzTktlSFpaVW1rNWQySkpPVXRSUFQwPQ=="; */
+		
+		
+		
+		/*String Authorization="Basic eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJHa0Y4ejdONSI"
+				+ "sInVzZXJfZW1haWwiOiI3OTlfcmV2MkBnZGl0LmNvbSIsInVzZXJfbmFtZSI6Ijc5OXJldjIiLCJsYX"
+				+ "N0X25hbWUiOiJyZXYyIiwibGFzdF9zdWNjZXNzZnVsX2xvZ2luIjoxNzM3MzUzMTEwMjI3LCJ1c2VyX"
+				+ "3JvbGVzIjpbeyJpZCI6MTYsIm5hbWUiOiJyZXZpZXdlcnNhY2MiLCJ1aWQiOiIxMCIsImFsaWFzIjoiQk"
+				+ "1TLUtZUC1SZXZpZXdlcnNhY2MtRU4ifSx7ImlkIjoyMCwibmFtZSI6InJldmlld2VycyIsInVpZCI6IjEi"
+				+ "LCJhbGlhcyI6IkJNUy1LWVAtUmV2aWV3ZXItRU4ifSx7ImlkIjoyOCwibmFtZSI6ImFkdmVyc2VhY3Rpb2"
+				+ "4iLCJ1aWQiOiIyMDciLCJhbGlhcyI6IkJNUy1LWVAtQWR2ZXJzZS1BY3Rpb25zLUVOIn0seyJpZCI6Miwib"
+				+ "mFtZSI6ImZpbmdlcnByaW50IiwidWlkIjoiMjA4IiwiYWxpYXMiOiJCTVMtS1lQLUZpbmdlcnByaW50LUVOI"
+				+ "n1dLCJjbGllbnRfaWQiOiJzZXRfZm9ybXMiLCJzdWJzY3JpcHRpb25faWQiOiJ1a3lwIiwiYXVkIjpbIkRpZ2"
+				+ "l0YWxIYXJib3IiXSwiaWRwIjoiIiwidXNlcl9pZCI6IkdrRjh6N041Iiwic2NvcGUiOlsid3JpdGUiXSwiYWN0"
+				+ "aXZlX3JvbGUiOnsiaWQiOjIwLCJuYW1lIjoicmV2aWV3ZXJzIiwidWlkIjoiMSIsImFsaWFzIjoiQk1TLUtZUC1"
+				+ "SZXZpZXdlci1FTiJ9LCJkZXBhcnRtZW50cyI6W10sImV4cCI6MTczNzQxMzExMCwiZmlyc3RfbmFtZSI6Ijc5OSIs"
+				+ "Imp0aSI6Im9iQ2lmeVVtTkV2Ti1PdnBKMHJYdzJyUWFXVSJ9.Vd-YvZ0ANlDB54hjLf7lqDnjUSYclVpFGFSHsn0"
+				+ "uHHAaehqtIg63MbUmbxG14hWRVpzCQbWri58uQVuH9ZyZbQuDeUbOZSS2iTRmjQSmSzwis316uzXQ2zB1qmR1KuO"
+				+ "E8f-jXONAllXuwnAbnHTlVF03XYA7Wx_0QTuYwiY00ps_lwUcilTfTqDDNwd8_In8kDn4Ep7X9z9qaxvjkFgEJXP"
+				+ "_ap4tL467tZDZT5Tz3BTw-dUqtbw_bIahNLNLcoO982GaEAwYI0-6AkPizrUrRJ9pHjtn9Nw8tAQNwy9H4JaM1os_"
+				+ "37ue4kqEgn_Z3uGeL77z6Xmm_q3rDPZfGSIKNQ";*/
+		
+		
+		return Authorization;
+	}
+	
+}
